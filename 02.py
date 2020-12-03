@@ -1,4 +1,4 @@
-data = list(map(str.split, open("02.txt","r").read().splitlines()))
+data = list(map(str.split, open("inputs/02.txt","r").read().splitlines()))
 
 def part1():
 	count = 0
