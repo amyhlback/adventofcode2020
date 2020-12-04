@@ -1,4 +1,5 @@
-numbers = list(map(int,open("inputs/01.txt","r").read().splitlines()))
+with open("inputs/01.txt","r") as f:
+	numbers = list(map(int,f.read().splitlines()))
 
 def part1():
 	for i in numbers:

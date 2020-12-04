@@ -1,4 +1,6 @@
-terrain = open("inputs/03.txt","r").read().splitlines()
+with open("inputs/03.txt","r") as f:
+	terrain = f.read().splitlines()
+	
 width = len(terrain[0])
 height = len(terrain)
 
